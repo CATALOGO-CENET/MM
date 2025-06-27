@@ -19,6 +19,14 @@
       <label for="fecha">Fecha:</label>
       <input type="date" id="fecha" name="fecha" required>
 
+      
+  <label for="estilo">Estilo del Diploma:</label>
+  <select id="estilo" name="estilo" required>
+    <option value="1">Estilo Clásico</option>
+    <option value="2">Estilo Moderno</option>
+    <option value="3">Estilo Creativo</option>
+  </select><br><br>
+
       <button type="button" onclick="generarDiploma()">Generar Diploma</button>
     </form>
     <canvas id="qrCanvas" style="display: none;"></canvas>
